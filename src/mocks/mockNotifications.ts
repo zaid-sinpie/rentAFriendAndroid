@@ -1,0 +1,48 @@
+import { AppNotification } from '../types';
+
+export const mockNotifications: AppNotification[] = [
+  {
+    id: 'notif_1',
+    userId: 'user_current',
+    type: 'booking_accepted',
+    title: 'Booking Confirmed!',
+    body: 'Aarav Mehta has accepted your booking for Photography Walk on Oct 20.',
+    isRead: false,
+    createdAt: '2 hours ago',
+    targetScreen: 'BookingDetails',
+    targetId: 'bk_101',
+  },
+  {
+    id: 'notif_2',
+    userId: 'user_current',
+    type: 'payment_update',
+    title: 'Payment Processed (Simulated)',
+    body: 'Demo payment of ₹1,599 for booking RAF-2026-9812 completed successfully.',
+    isRead: false,
+    createdAt: '3 hours ago',
+    targetScreen: 'BookingDetails',
+    targetId: 'bk_101',
+  },
+  {
+    id: 'notif_3',
+    userId: 'user_current',
+    type: 'upcoming_booking',
+    title: 'Reminder: Upcoming Companion Plan',
+    body: 'Your plan with Aarav Mehta is scheduled for Oct 20 at 04:00 PM in Koregaon Park.',
+    isRead: true,
+    createdAt: 'Yesterday',
+    targetScreen: 'BookingDetails',
+    targetId: 'bk_101',
+  },
+  {
+    id: 'notif_4',
+    userId: 'user_current',
+    type: 'review_reminder',
+    title: 'How was your experience?',
+    body: 'Leave a rating and review for Ananya Sharma to help our community.',
+    isRead: true,
+    createdAt: '3 days ago',
+    targetScreen: 'FriendProfile',
+    targetId: 'friend_4',
+  },
+];

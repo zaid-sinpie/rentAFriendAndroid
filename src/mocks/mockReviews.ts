@@ -1,0 +1,48 @@
+import { Review } from '../types';
+
+export const mockReviews: Review[] = [
+  {
+    id: 'rev_1',
+    bookingId: 'bk_103',
+    reviewerId: 'user_current',
+    reviewerName: 'Rahul K.',
+    friendId: 'friend_4',
+    rating: 5,
+    comment: 'Ananya was very thoughtful and welcoming! We explored interesting vintage books on FC Road and had great discussions over tea. Highly recommended companion.',
+    activityName: 'Coffee & Conversation',
+    createdAt: '2026-09-29T10:00:00Z',
+  },
+  {
+    id: 'rev_2',
+    bookingId: 'bk_201',
+    reviewerId: 'user_u2',
+    reviewerName: 'Divya M.',
+    friendId: 'friend_1',
+    rating: 5,
+    comment: 'Aarav knows every quiet alleyway and heritage spot in Pune. I learned so much about street framing and photography composition.',
+    activityName: 'Photography Walk',
+    createdAt: '2026-10-02T15:20:00Z',
+  },
+  {
+    id: 'rev_3',
+    bookingId: 'bk_202',
+    reviewerId: 'user_u3',
+    reviewerName: 'Sanjay P.',
+    friendId: 'friend_2',
+    rating: 5,
+    comment: 'Riya made exploring Mumbai art galleries effortless. She is polite, punctual, and knows the best cafes in Kala Ghoda!',
+    activityName: 'Sightseeing & Culture',
+    createdAt: '2026-10-05T18:40:00Z',
+  },
+  {
+    id: 'rev_4',
+    bookingId: 'bk_203',
+    reviewerId: 'user_u4',
+    reviewerName: 'Prateek S.',
+    friendId: 'friend_3',
+    rating: 4,
+    comment: 'Great board game session. Kabir brought two games and was super patient in explaining the rules.',
+    activityName: 'Gaming & Arcades',
+    createdAt: '2026-10-08T12:00:00Z',
+  },
+];
